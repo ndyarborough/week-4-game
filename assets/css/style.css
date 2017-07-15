@@ -1,0 +1,95 @@
+body {
+	background-image: url(../../assets/images/main-bg.png);
+}
+
+.main-header {
+	background: darkorange;
+	text-align: center;
+	color: #fff;
+	font-size: 2.5em;
+	margin-top: 2vh;
+	font-weight: 700;
+	width: 35vw;
+	padding: 4vh 0;
+	border-radius: 10px;
+}
+
+.instructions {
+	background-color: #ffe77c;
+	margin: 2vh 0;
+	padding: 2vh 1.5vw;
+	color: teal;
+	font-size: 1.2em;
+}
+
+.scoreboard {
+	width: 46vw;
+	height: 19vh;
+}
+
+.target-score {
+	background: greenyellow;
+	padding: 2vh 0;
+	color: rebeccapurple;
+	height: 15vh;
+	font-size: 2em;
+	width: 25vw;
+	display: inline;
+	float: left;
+
+}
+
+#target-score {
+	margin: 1vh 0 0 1vw;
+}
+
+
+.win-loss {
+	background: aqua;
+	margin-left: 1vw;
+	padding: 2vh 0;
+	width: 20vw;
+	height: 15vh;
+	display: inline;
+	float: left;
+}
+
+.wins, .losses, #wins, #losses {
+	color: teal;
+	font-size: 1.4em;
+	margin-left: 2vw;
+}
+
+.gemBox {
+	background: #aaa;
+	height: 20vh;
+	width: 46vw;
+}
+
+.gemsDiv {
+	margin-left: 2vw;
+}
+
+.gems {
+	background: #fff;
+	height: 17vh;
+	margin: 1vh 0 1vh 2vw;
+	width: 8vw;
+	display: inline;
+	float: left;
+}
+
+.gems img {
+	height: 17vh;
+	width: 8vw;
+}
+
+.total-score {
+	background-color: teal;
+	text-align: center;
+	color: #fff;
+	font-size: 1.4em;
+	padding: 2vh 0;
+	width: 46vw;
+}
+

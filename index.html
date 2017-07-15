@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gem Collector Game</title>
+		<link href="assets/css/style.css" type="text/css" rel="stylesheet">
+		<link href="assets/css/reset.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+			<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+		<div class="main-header">Gem Collector!</div>
+		<div class="instructions">
+			
+			<h3>You will be given a random number at the start of the game.</h3>
+			<h3>There are four gems below. By clicking on a gem you will add a specific amount of points to your total score.  </h3>
+			<h3>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h3>
+			<h3>The value of each gem in hidden from you until you click on it.</h3>
+			<h3>Each time when the game starts, the game will change the values of each gem.</h3>
+		</div>
+			<div class="scoreboard">
+
+				<div class="target-score"><span id="target-score"></span></div>
+		
+				<div class="win-loss">
+			
+					<div class="wins">Wins: <span id="wins"></span></div>
+					<div class="losses">Losses: <span id="losses"></span></div>
+			
+				</div>
+			</div>
+
+		<div class="gemBox">
+			
+			<div class="gemsDiv">
+
+				<div class="gems green-rupee"><img src="assets/images/green-rupee.png"></div>
+				<div class="gems blue-rupee"><img src="assets/images/blue-rupee.png"></div>
+				<div class="gems red-rupee"><img src="assets/images/red-rupee.png"></div>
+				<div class="gems yellow-rupee"><img src="assets/images/yellow-rupee.png"></div>
+
+			</div>
+
+		</div>
+		
+		<div class="total-score">Your total score is: <span id="total-score"></span></div>
+	<script src="assets/javascript/game.js"></script>
+	</body>
+</html>
